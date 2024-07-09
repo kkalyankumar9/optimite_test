@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+        .header {
+            padding: 20px;
+            text-align: center;
+            background-color: #007bff;
+            color: #ffffff;
+        }
+        .header img {
+            max-width: 100px;
+        }
+        .main {
+            padding: 20px;
+        }
+        .main h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .main h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .main p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .image-wrap {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .image-wrap img {
+            max-width: 150px;
+            margin-right: 20px;
+            border-radius: 10%;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .footer img {
+            max-width: 30px;
+            margin: 0 10px;
+        }
+        @media screen and (max-width: 600px) {
+            .image-wrap {
+                flex-direction: column;
+                text-align: center;
+            }
+            .image-wrap img {
+                margin: 0 0 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <table class="container" cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="header">
+                <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" alt="Logo">
+            </td>
+        </tr>
+        <tr>
+            <td class="main">
+                <h1>Welcome to Our Newsletter</h1>
+                <h2>Stay Updated with Our Latest News</h2>
+                <p>Thank you for subscribing to our newsletter! We are excited to bring you the latest news and updates from our company. Stay tuned for exclusive content, upcoming events, and special offers.</p>
+                <div class="image-wrap">
+                    <img src="https://via.placeholder.com/150" alt="Sample Image">
+                    <p>Our team is dedicated to providing you with the best experience possible. Whether it's through our innovative products or exceptional customer service, we are here to support you every step of the way.</p>
+                </div>
+                <a href="https://example.com" class="cta-button">Learn More</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="footer">
+                <a href="https://facebook.com"><img src="https://i.pinimg.com/originals/05/0a/65/050a6577c4da2965f8bb78222c579df4.png" alt="Facebook"></a>
+                <a href="https://twitter.com"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI-h-e2hgz8mwGfCt4gvj4IgMG_wAUolVM6w&s" alt="Twitter"></a>
+                <a href="https://instagram.com"><img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNTMzLW5lb24tMDAzLnBuZw.png" alt="Instagram"></a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
